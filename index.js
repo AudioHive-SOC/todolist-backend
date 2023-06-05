@@ -57,3 +57,5 @@ app.put("/api/updateTodos", async (req, res) => {
 
 const port = process.env.PORT;
 app.listen(port, () => console.log(`SERVER: ${port}`));
+
+export default app;
